@@ -1,0 +1,36 @@
+nav {
+    background-color: darkblue;
+    padding: 10px;
+}
+
+a {
+    color: rgb(4, 4, 191);
+    text-decoration: none;
+}
+nav a {
+    color: rgb(229, 229, 235);
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+}
+
+h1{
+    color: darkblue;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    border: 3px solid rgb(63, 47, 47);
+    padding: 2px;
+    box-shadow: 0 0 30px rgb(21, 21, 21);
+}
+
+p {
+    padding: 10px;
+}
+
+p {
+    color: rgb(0, 0, 0);
+}
+
