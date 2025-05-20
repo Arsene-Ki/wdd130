@@ -1,34 +1,64 @@
 nav {
-    background-color: darblue;
+    background-color: rgb(192, 239, 4);
     padding: 10px;
 }
+
 nav a {
-    color: white;
+    color: rgb(114, 112, 112);
     display: block;
     padding: 20px;
 }
 
-h1{
+aside {
+    width: 30rem;
+    margin: 1rem auto;
+    border: 2px solid #333;
+    padding: 1rem;
+    background-color: #96999b;
+    color: #222;
+}
+
+h1 {
     color: darkblue;
 }
 
-img {
+main img {
     width: 200px;
     height: auto;
     border: 1px solid black;
-    padding: 2px;
+    padding: 1px;
     box-shadow: 0 0 30px gray;
-}
+    background-color:  03447c;
+color:  222;
+ 
+} 
+
 
 p {
-    padding: 10px;
+    padding: 0 px; 
 }
+  /* ...existing code... */
+footer {
+        margin-top: 2rem;         /* 1️⃣ Adds space above the footer */
+        border-top: 2px solid #ccc; /* 2️⃣ Adds a top border */
+        text-align: center;        /* 3️⃣ Centers the text */
+        padding-top: 1rem;         /* Optional: adds space between border and text */
+ }
+    /* ...existing code... */
+
 
 a {
     color: blue;
-    text-decoration: none; /* Optional: Removes underline */
+    text-decoration: none;
 }
 
-a:hover {
-    text-decoration: underline; /* Optional: Adds underline on hover */
+a:hover {/* ...existing code... */
+footer {
+    margin-top: 2rem;
+    border-top: 2px solid #ccc;
+    text-align: center;
+    padding-top: 1rem;
+}
+/* ...existing code... */
+    text-decoration: underline;
 }
