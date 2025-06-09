@@ -255,3 +255,8 @@ footer .social-media img:hover {
         justify-content: center;
     }
 }
+
+body, header, .site-title, nav ul li a {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
