@@ -212,7 +212,9 @@ section {
 }
 
 /* Contact Info Section */
-.contact-info {
+.contact-info,
+.employee-profiles,
+.contact-form-section {
     background: #fff;
     border: 2px solid #b9aaff;
     border-radius: 8px;
