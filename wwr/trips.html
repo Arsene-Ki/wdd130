@@ -23,18 +23,57 @@
     </header>
     <main>
         <h1>Our Trips</h1>
-        <section>
-            <h2>Beginner Rapids</h2>
-            <p>Perfect for families and first-timers. Enjoy a safe and scenic ride!</p>
-        </section>
-        <section>
-            <h2>Intermediate Adventure</h2>
-            <p>Step up the excitement with more challenging rapids and beautiful views.</p>
-        </section>
-        <section>
-            <h2>Extreme Thrills</h2>
-            <p>For the experienced and adventurous! Fast water and big waves await.</p>
-        </section>
+        <div class="trips-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:2rem;">
+            <section>
+                <img src="images/trip1.jpg" alt="Beginner Rapids" style="width:100%;border-radius:8px;">
+                <h2>Beginner Rapids</h2>
+                <p>Perfect for families and first-timers. Enjoy a safe and scenic ride!</p>
+            </section>
+            <section>
+                <img src="images/trip2.jpg" alt="Intermediate Adventure" style="width:100%;border-radius:8px;">
+                <h2>Intermediate Adventure</h2>
+                <p>Step up the excitement with more challenging rapids and beautiful views.</p>
+            </section>
+            <section>
+                <img src="images/trip3.jpg" alt="Extreme Thrills" style="width:100%;border-radius:8px;">
+                <h2>Extreme Thrills</h2>
+                <p>For the experienced and adventurous! Fast water and big waves await.</p>
+            </section>
+        </div>
+        <h2>Trip Summary</h2>
+        <table style="width:100%;border-collapse:collapse;margin:2rem 0;">
+            <thead>
+                <tr style="background:#caf0f8;">
+                    <th>Trip Name</th>
+                    <th>Difficulty</th>
+                    <th>Duration</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Beginner Rapids</td>
+                    <td>Easy</td>
+                    <td>2 hours</td>
+                    <td>$40</td>
+                </tr>
+                <tr>
+                    <td>Intermediate Adventure</td>
+                    <td>Medium</td>
+                    <td>4 hours</td>
+                    <td>$70</td>
+                </tr>
+                <tr>
+                    <td>Extreme Thrills</td>
+                    <td>Hard</td>
+                    <td>6 hours</td>
+                    <td>$120</td>
+                </tr>
+            </tbody>
+        </table>
+        <div style="text-align:center;margin:2rem 0;">
+            <a href="contact.html" class="cta-button" style="background:#0077b6;color:#fff;padding:1rem 2rem;border-radius:8px;text-decoration:none;font-weight:bold;">Book Your Trip</a>
+        </div>
     </main>
     <footer>
         <p>&copy; 2025 White Water Rafting Co. | Arsene Kitemba</p>

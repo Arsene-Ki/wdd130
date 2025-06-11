@@ -27,14 +27,36 @@
         </nav>
     </header>
     <main>
-        <section class="hero">
-            <img src="images/hero.jpg" alt="Rafting Adventure" class="hero-img" width="90" height="90">
-            <h1>Welcome to White Water Rafting Co.</h1>
+        <section class="hero-section">
+            <img src="images/hero.jpg" alt="Rafting Adventure" class="hero-img" style="width:100%;max-height:350px;object-fit:cover;">
+            <h1 class="main-title">Welcome to White Water Rafting Co.</h1>
             <p>
                 Embark on an unforgettable adventure with our experienced guides and top-quality equipment.
                 Discover the thrill of white water rafting today!
             </p>
             <a href="trips.html" class="cta-button">View Trips</a>
+        </section>
+        <section class="newsletter-section">
+            <h2>Sign Up for Our Newsletter</h2>
+            <form>
+                <label for="newsletter-name">Name:</label>
+                <input type="text" id="newsletter-name" name="newsletter-name" required>
+                <label for="newsletter-email">Email:</label>
+                <input type="email" id="newsletter-email" name="newsletter-email" required>
+                <button type="submit">Sign Up Now</button>
+            </form>
+        </section>
+        <section class="company-info-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:2rem;align-items:center;">
+            <div>
+                <img src="images/adventure1.jpg" alt="Rafting Adventure" style="width:100%;border-radius:8px;">
+                <h3>Our Mission</h3>
+                <p>To provide safe, fun, and memorable rafting experiences for all ages and skill levels.</p>
+            </div>
+            <div>
+                <img src="images/adventure2.jpg" alt="Family Rafting" style="width:100%;border-radius:8px;">
+                <h3>What We Offer</h3>
+                <p>Guided trips, group packages, and custom adventures on beautiful rivers.</p>
+            </div>
         </section>
         <section class="features">
             <h2>Why Choose Us?</h2>
